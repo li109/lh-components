@@ -6,6 +6,8 @@ interface optionModel {
   fontSize: number, // 仪表盘数值字体大小
   bgFontSize: number // 内盘数值字体大小
 }
+
+// 仪表盘
 class Dashboard {
   private zr: any // zrender实例
   private w: number // 容器宽度
